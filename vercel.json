@@ -1,0 +1,6 @@
+{
+  "framework": "vite",
+  "installCommand": "npm install --prefix=..",
+  "buildCommand": "npm run build:packages && cd client && npm run build",
+  "devCommand": "npm run build:packages && cd client && npm run dev -- --host 0.0.0.0 --port 3090"
+}
